@@ -12,3 +12,17 @@
 @import url(../blocks/header/__pic/header__pic.css);
 @import url(../blocks/header/__subtitle/header__subtitle.css);
 @import url(../blocks/header/__title/header__title.css);
+@import url(../blocks/content/content.css);
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__list-item/intro__list-item.css);
+@import url(../blocks/intro/__list/intro__list.css);
+@import url(../blocks/intro/__text/intro__text.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/photo-grid/__photo/photo-grid__photo.css);
+@import url(../blocks/places/places.css);
+@import url(../blocks/places-card/places-card.css);
+@import url(../blocks/places-card/__link/places-card__link.css);
+@import url(../blocks/places-card/__pic/places-card__pic.css);
+@import url(../blocks/places-card/__text/places-card__text.css);
+@import url(../blocks/places-card/__title/places-card__title.css);

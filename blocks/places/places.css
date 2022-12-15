@@ -1,5 +1,4 @@
-.header {
-  width: calc(100% - 96px);
+.places {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
