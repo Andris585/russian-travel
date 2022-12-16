@@ -1,0 +1,14 @@
+.places-card {
+  display: grid;
+  grid-template-areas: 
+  'title link'
+  'pic text';
+  padding-bottom: 80px;
+  column-gap: 40px;
+  row-gap: 48px;
+  position: relative;
+}
+
+.places-card:last-child {
+  padding-bottom: 92px;
+}

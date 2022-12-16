@@ -1,0 +1,5 @@
+.places-card__pic {
+  grid-area: pic;
+  object-fit: cover;
+  max-width: 460px ;
+}

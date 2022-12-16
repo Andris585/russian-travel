@@ -26,3 +26,5 @@
 @import url(../blocks/places-card/__pic/places-card__pic.css);
 @import url(../blocks/places-card/__text/places-card__text.css);
 @import url(../blocks/places-card/__title/places-card__title.css);
+@import url(../blocks/places-card/__text/_position/places-card__text_position_bottom.css);
+@import url(../blocks/places-card/__tex-wrapper/places-card__text-wrapper.css);
