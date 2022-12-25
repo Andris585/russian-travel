@@ -1,8 +1,36 @@
 .photo-grid {
-  width: calc(100% - 96px);
+  width: 100%;
+  max-width: 1184px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 16px;
   margin: 0 auto;
   padding-bottom: 92px;
+}
+
+@media screen  
+and (max-width: 1050px)
+{
+  .photo-grid {
+    max-width: 928px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen  
+and (max-width: 768px)
+{
+  .photo-grid {
+    max-width: 720px ;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen  
+and (max-width: 676px)
+{
+  .photo-grid {
+    max-width: 288px ;
+    grid-template-columns: 1fr;
+  }
 }

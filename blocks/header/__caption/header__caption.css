@@ -9,3 +9,10 @@
   color: #FFFFFF;
   margin: 8px 0 92px 0;
 }
+
+@media screen 
+and (max-width: 768px) {
+  .header__caption {
+    margin-left: 24px;
+  }
+}
