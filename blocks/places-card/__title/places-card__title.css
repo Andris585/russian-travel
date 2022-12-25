@@ -24,6 +24,7 @@ and (max-width: 768px) {
 @media screen
 and (max-width: 352px) {
   .places-card__title {
+    box-sizing: border-box;
     padding: 0 16px;
   }
 }

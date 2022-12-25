@@ -15,3 +15,11 @@ and (max-width: 766px) {
     line-height: 1.63;
   }
 }
+
+@media screen
+and (max-width: 352px) {
+  .places-card__text {
+    box-sizing: border-box;
+    padding: 0 16px;
+  }
+}
