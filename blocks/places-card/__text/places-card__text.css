@@ -8,16 +8,14 @@
   color: #FFFFFF;
 }
 
-@media screen
-and (max-width: 766px) {
+@media screen and (max-width: 766px) {
   .places-card__text {
     font-size: 16px;
     line-height: 1.63;
   }
 }
 
-@media screen
-and (max-width: 352px) {
+@media screen and (max-width: 352px) {
   .places-card__text {
     box-sizing: border-box;
     padding: 0 16px;

@@ -5,15 +5,13 @@
   max-width: 460px;
 }
 
-@media screen 
-and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .places-card__pic {
     max-width: 440px;
   }
 }
 
-@media screen 
-and (max-width: 766px) {
+@media screen and (max-width: 766px) {
   .places-card__pic {
     max-width: 340px;
   }

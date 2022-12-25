@@ -6,33 +6,29 @@
   margin: 0 auto;
 }
 
-@media screen 
-and (max-width: 1080px) {
+@media screen and (max-width: 1080px) {
   .intro__wrapper {
     max-width: 928px;
   }
 }
 
-@media screen 
-and (max-width: 984px) {
+@media screen and (max-width: 984px) {
   .intro__wrapper {
     max-width: 768px;
   }
 }
 
-@media screen 
-and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .intro__wrapper {
     box-sizing: border-box;
     padding-left: 24px;
   }
 }
 
-@media screen
-and (max-width: 715px) {
-  .intro__wrapper { 
+@media screen and (max-width: 715px) {
+  .intro__wrapper {
     margin: 0 auto;
     box-sizing: border-box;
     padding: 0 16px;
-  } 
+  }
 }
