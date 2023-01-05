@@ -1,6 +1,4 @@
 .places-card__link {
-  grid-area: link;
-  align-self: end;
   font-family: 'Inter', 'Helvetica', 'Arial', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -9,20 +7,6 @@
   text-decoration-line: underline;
   color: #FFFFFF;
   position: relative;
-}
-
-.places-card__link::before {
-  content: 'URL';
-  font-family: 'Inter', 'Helvetica', 'Arial', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 12px;
-  letter-spacing: 2px;
-  color: #AAAAAA;
-  position: absolute;
-  left: 0;
-  bottom: 34px;
 }
 
 @media screen and (max-width: 352px) {

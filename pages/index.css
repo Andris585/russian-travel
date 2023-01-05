@@ -1,4 +1,5 @@
 @import url(../vendor/styles/normalize.css);
+@import url(../blocks/../vendor/fonts/fonts.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/root/root.css);
 @import url(../blocks/link/link.css);
@@ -26,13 +27,16 @@
 @import url(../blocks/places/places.css);
 @import url(../blocks/places/places__list/places__list.css);
 @import url(../blocks/places-card/places-card.css);
+@import url(../blocks/places-card/__link-cover/places-card__link-cover.css);
 @import url(../blocks/places-card/__link/places-card__link.css);
+@import url(../blocks/places-card/__url/places-card__url.css);
 @import url(../blocks/places-card/__pic/places-card__pic.css);
 @import url(../blocks/places-card/__text/places-card__text.css);
 @import url(../blocks/places-card/__title/places-card__title.css);
 @import url(../blocks/places-card/__text/_position/places-card__text_position_bottom.css);
 @import url(../blocks/places-card/__tex-wrapper/places-card__text-wrapper.css);
 @import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__link/cover__link.css);
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 @import url(../blocks/cover/__titlle-wrapper/cover__title-wrapper.css);

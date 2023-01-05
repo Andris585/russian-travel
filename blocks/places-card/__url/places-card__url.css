@@ -1,0 +1,11 @@
+.places-card__url {
+  display: block;
+  font-family: 'Inter', 'Helvetica', 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1;
+  letter-spacing: 2px;
+  color: #AAAAAA;
+  margin-bottom: 12px;
+}
