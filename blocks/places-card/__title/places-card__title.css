@@ -21,6 +21,13 @@
   }
 }
 
+@media screen and (max-width: 676px) {
+  .places-card__title {
+    font-size: 32px;
+    line-height: 1.09;
+  }
+}
+
 @media screen and (max-width: 352px) {
   .places-card__title {
     box-sizing: border-box;

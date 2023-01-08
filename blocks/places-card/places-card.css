@@ -25,6 +25,7 @@
   .places-card {
     grid-template-columns: 340px 1fr;
     column-gap: 28px;
+    padding-bottom: 72px;
   }
 }
 
@@ -36,7 +37,8 @@
       'link'
       'pic'
       'text';
-    column-gap: 32px;
+    row-gap: 32px;
     margin: 0 auto;
+    padding-bottom: 50px;
   }
 }

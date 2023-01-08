@@ -1,4 +1,4 @@
-.header__title-wrapper {
+.lead {
   width: 100%;
   max-width: 984px;
   display: flex;
@@ -7,13 +7,13 @@
 }
 
 @media screen and (max-width: 1080px) {
-  .header__title-wrapper {
+  .lead {
     max-width: 928px;
   }
 }
 
 @media screen and (max-width: 984px) {
-  .header__title-wrapper {
+  .lead {
     max-width: 768px;
   }
 }

@@ -1,4 +1,4 @@
-.header__caption {
+.lead__caption {
   font-family: 'Inter', 'Helvetica', 'Arial', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -7,11 +7,19 @@
   letter-spacing: 1.5px;
   text-transform: uppercase;
   color: #FFFFFF;
-  margin: 8px 0 92px 0;
+  margin: 8px auto 92px;
 }
 
 @media screen and (max-width: 768px) {
-  .header__caption {
-    margin-left: 24px;
+  .lead__caption {
+    margin-bottom: 88px;
+    width: calc(100% - 48px);
+  }
+}
+
+@media screen and (max-width: 715px) {
+  .lead__caption {
+    width: calc(100% - 32px);
+    margin-bottom: 64px;
   }
 }

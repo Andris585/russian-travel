@@ -1,5 +1,4 @@
 .places-card__url {
-  display: block;
   font-family: 'Inter', 'Helvetica', 'Arial', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -8,4 +7,13 @@
   letter-spacing: 2px;
   color: #AAAAAA;
   margin-bottom: 12px;
+  text-transform: uppercase;
+  
+}
+
+@media screen and (max-width: 352px) {
+  .places-card__url {
+    box-sizing: border-box;
+    padding: 0 16px;
+  }
 }

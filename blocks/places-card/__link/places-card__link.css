@@ -7,15 +7,11 @@
   text-decoration-line: underline;
   color: #FFFFFF;
   position: relative;
+  max-width: fit-content;
 }
 
 @media screen and (max-width: 352px) {
   .places-card__link {
-    box-sizing: border-box;
-    padding: 0 16px;
-  }
-
-  .places-card__link::before {
     box-sizing: border-box;
     padding: 0 16px;
   }

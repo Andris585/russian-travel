@@ -1,0 +1,29 @@
+.places-card__paragraph {
+  margin: 0;
+  font-family: 'Inter', 'Helvetica', 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.63;
+  color: #FFFFFF;
+}
+
+.places-card__paragraph:not(:last-child) {
+  padding-bottom: 28px;
+}
+
+
+
+@media screen and (max-width: 766px) {
+  .places-card__paragraph {
+    font-size: 16px;
+    line-height: 1.63;
+  }
+}
+
+@media screen and (max-width: 352px) {
+  .places-card__paragraph {
+    box-sizing: border-box;
+    padding: 0 16px;
+  }
+}
